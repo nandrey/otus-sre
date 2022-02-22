@@ -8,7 +8,7 @@ Vagrant - Vagrant 2.2.19
 
 Vagrant synced folder - ./code", "/home/vagrant/code
 
-Application code folder - ./code
+Code folder so new code may be placed there - ./code
 Application is located in - ./code/flask-sqlite3-todo-crud/
 Application is cloned from - https://github.com/Zenahr/flask-sqlite3-todo-crud
 Application run line - python app.py
