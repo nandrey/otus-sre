@@ -3,3 +3,5 @@
 
 # ignore vagrant cogs
 vagrant/
+
+.gitignore
