@@ -1,11 +1,14 @@
-# otus-sre
+## otus-sre
 This project is for study purpose.
 
+# Usage
 After clone run "vagrant up" and you will get working development enviroment based on bento/ubuntu-18.04
 
+# Versions
 Hypervisor - Oracle VM VirtualBox VM Runner v6.1.32
 Vagrant - Vagrant 2.2.19
 
+# Folders and Ports
 Vagrant synced folder - ./code", "/home/vagrant/code
 
 Code folder so new code may be placed there - ./code
