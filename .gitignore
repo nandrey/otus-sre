@@ -1,7 +1,0 @@
-# ignore all logs
-*.log
-
-# ignore vagrant cogs
-vagrant/
-
-.gitignore
