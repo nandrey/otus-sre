@@ -6,6 +6,7 @@ After clone run "vagrant up" and you will get working development enviroment bas
 
 ## Versions
 Hypervisor - Oracle VM VirtualBox VM Runner v6.1.32
+
 Vagrant - Vagrant 2.2.19
 
 ## Folders and Ports
