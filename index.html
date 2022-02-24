@@ -49,9 +49,11 @@
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
+    <li class="toctree-l2"><a class="reference internal" href="#usage">Usage</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l2"><a class="reference internal" href="#versions">Versions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#folders-and-ports">Folders and Ports</a>
     </li>
     </ul>
                     </li>
@@ -93,20 +95,22 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="welcome-to-otus-sre">Welcome to Otus-SRE</h1>
+<p>This project is for study purpose only.</p>
+<h2 id="usage">Usage</h2>
+<p>After clone run "vagrant up" and you will get working development enviroment based on bento/ubuntu-18.04</p>
+<p>Then "vagrant ssh" and run "python ./code/flask-sqlite3-todo-crud/app.py"</p>
+<h2 id="versions">Versions</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>Hypervisor - Oracle VM VirtualBox VM Runner v6.1.32</li>
+<li>Vagrant - Vagrant 2.2.19</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<h2 id="folders-and-ports">Folders and Ports</h2>
+<pre><code>./code &gt;&gt; /home/vagrant/code # Vagrant synced folder
+./code # Code folder so new code may be placed there
+./code/flask-sqlite3-todo-crud/ # Application is located here
+5000 # Application uses port 5000, forwarded to port 5000 on host
+https://github.com/renat-nizamov/flask-sqlite3-todo-crud # Application source
 </code></pre>
               
             </div>
@@ -162,5 +166,5 @@ docs/
 
 <!--
 MkDocs version : 1.2.3
-Build Date UTC : 2022-02-24 13:50:38.279003+00:00
+Build Date UTC : 2022-02-24 15:19:04.522561+00:00
 -->
