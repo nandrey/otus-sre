@@ -21,3 +21,6 @@ Application is located in - ./code/flask-sqlite3-todo-crud/
 Application is cloned from - https://github.com/renat-nizamov/flask-sqlite3-todo-crud
 
 Application uses port 5000, forwarded to port 5000 on host
+
+### Diagram
+![Project diagram](https://github.com/nandrey/otus-sre/blob/master/diagrams/grouped_workers.png)
