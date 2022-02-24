@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://example.com/</loc>
+         <loc>https://nandrey.github.io/otus-sre/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://example.com/about/</loc>
+         <loc>https://nandrey.github.io/otus-sre/about/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
