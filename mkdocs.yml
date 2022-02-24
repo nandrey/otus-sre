@@ -1,0 +1,6 @@
+site_name: OTUS-SRE Study project
+site_url: https://nandrey.github.io/otus-sre/
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
