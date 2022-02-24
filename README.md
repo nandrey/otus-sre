@@ -1,5 +1,5 @@
 # otus-sre
-This project is for study purpose.
+This project is for study purpose only.
 
 ## Usage
 After clone run "vagrant up" and you will get working development enviroment based on bento/ubuntu-18.04
